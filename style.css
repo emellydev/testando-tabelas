@@ -8,10 +8,12 @@
         body {
             height: 100vh;
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+            background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
             color: rgb(255, 255, 255);
         }
         
+
+     
         header {
             background-color: rgba(26, 26, 26, 0.916);
             position: relative;
@@ -37,12 +39,14 @@
         }
 
         table {
-            margin: 10px;
+            margin: 30px;
         }
-
+        
+        
         td, tr {
+            background-color: rgb(255, 255, 255);
             text-align: center;
-            width: 300px;
+            width: 100px;
             height: 40px;
             color: black;
             border-radius: 5px;
