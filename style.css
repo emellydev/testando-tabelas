@@ -40,6 +40,7 @@
 
         table {
             margin: 30px;
+            border-spacing: 5px;
         }
         
         
@@ -57,4 +58,8 @@
             border: 1px solid black;
         }
 
+        td:hover {
+            background-color: #906263;
+            color: white;
+        }
    
